@@ -7,5 +7,7 @@ class Dog
     self.name = name
     self.breed = breed
     self.age = age
+
+    @@all << self
   end
 end
